@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Project</title>
+    <link rel="stylesheet" type="text/css" href="API.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h1>Guess the word!</h1>
+    </div>
+    <div class="randgen">
+        <div class="wordContain">
+            <img id="imgid"></img>
+        </div>
+        <div class="hint">
+            <p id="hintbox"></p>
+        </div>
+        <div class="guesses">
+            <div class="textdiv">
+                <input id="inputbox" type="text" placeholder="Type guess here!">
+            </div>
+            <button onclick="guess()">Guess!</button>
+        </div>
+        <div class="button">
+            <button onclick="newWord()">New Image</button>
+        </div>
+    </div>
+    <script src="API.js"></script>
+</body>
+</html>
